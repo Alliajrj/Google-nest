@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap');
+
+a {
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    border-bottom: 1px solid #c4c4c4;
+    padding: 5px 25px;
+    display: flex;
+align-items: center;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+header nav li {
+    color: #333435;
+list-style-type: none;
+transition: 0.2s;
+}
+header nav li:hover {
+    color: rgb(45, 66, 202);
+}
+
+.titre {
+    color: #434445;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 10vw;
+    box-sizing: border-box;
+}
+.wrapper{
+   display: flex;
+   justify-content: center;
+   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    height: 200px;
+    object-fit: contain;
+    margin: auto;
+}
+.card h1 {
+    font-size: 130%;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.card h2 {
+    color: #797979;
+    font-size: 120%;
+    font-weight: 100;
+}
+.card h3,h4 {
+    color: #434445;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 100;
+}
+.card p {
+    min-height: 150px;
+    text-align: center;
+    color: #434445;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.links ul, li{
+    color: #333435;
+    font-size: 90%;
+    list-style-type: none;
+    transition: 0.2s;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.links a :hover {
+    color: rgb(45, 66, 202);
+}
+@media screen and (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    
+}
+.styled {
+    border: 0;
+    border-radius: 3px;
+    margin: auto;
+    line-height: 10px;
+    padding: 6px ;
+    font-size: 90%;
+    text-align: center;
+    color: white ;
+    background-color: rgb(45, 66, 202);
+    transition: 0.2s;
+}
+.styled :hover {
+    background-color: white;
+    padding: 6px;
+    color: rgb(45, 66, 202);
+}
+
